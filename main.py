@@ -382,8 +382,8 @@ async def id_command(client, message: Message):
            f"• 🎓 Utkarsh Protection(Video + PDF)\n"
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)\n\n"
-           f"<blockquote>💵 Monthly Plan: free</blockquote>\n\n"
-           f"If you want to buy membership of the bot, feel free to contact the Bot Admin.\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+           f"<blockquote>💵 Monthly Plan: 500rs</blockquote>\n\n"
+           f"If you want to buy membership of the bot, feel free to contact the Bot Admin. @Final_piece \n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
     )  
 
 @bot.on_message(filters.command(["id"]))
@@ -415,7 +415,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 🔶️🔹️💠[CHAMBAL BOTS](https://ibb.co/9HPmFsD3)💠🔹️🔶️\n"
+        f" 🔶️🔹️💠[CHAMBAL BOTS]💠🔹️🔶️\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
@@ -440,7 +440,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [CHAMBAL BOY](https://ibb.co/9HPmFsD3) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [CHAMBAL BOY] 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -534,7 +534,7 @@ async def txt_handler(bot: Client, m: Message):
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
-    if raw_text3 == '/d':
+    if raw_text3 == ❝𝐂𝐡𝐚𝐦𝐛𝐚𝐥 𝐇𝐢𝐭𝐥𝐞𝐫𝐬 ❥❥═══ ❤️™️ @Final_piece
         CR = f"{CREDIT}"
     else:
         CR = raw_text3
@@ -656,12 +656,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°✅ CHAMBAL BOTS VIDEO ✅°•.═━┈-\n{b_name}\n```\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](@Final_piece)```\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°✅ CHAMBAL BOTS PDF ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](@Final_piece)```\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ CHAMBAL zip ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](@Final_piece)```\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ CHAMBAL pic ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](@Final_piece)```\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ CHAMBAL mp3 ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](@Final_piece)```\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ CHAMBAL HTML ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](@Final_piece)```\n'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] ❝𝐂𝐡𝐚𝐦𝐛𝐚𝐥 𝐇𝐢𝐭𝐥𝐞𝐫𝐬 ❥❥═══ ❤️™️ @Final_piece.mkv`\n```-┈━═.•°✅ CHAMBAL BOTS VIDEO ✅°•.═━┈-\n{b_name}\n```\n```-┈━═.•°✅ UPLOADED BY ✅°•.═━┈-\n[{CR}]```\n'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} ❝𝐂𝐡𝐚𝐦𝐛𝐚𝐥 𝐇𝐢𝐭𝐥𝐞𝐫𝐬 ❥❥═══ ❤️™️ @Final_piece.pdf`\n```-┈━═.•°✅ CHAMBAL BOTS PDF ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ UPLOADED BY ✅°•.═━┈-\n[{CR}]```\n'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ CHAMBAL zip ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}]```\n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ CHAMBAL pic ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}]```\n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ CHAMBAL mp3 ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}]```\n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ CHAMBAL HTML ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}]```\n'
                   
                 if "drive" in url:
                     try:
