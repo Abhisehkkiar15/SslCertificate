@@ -59,25 +59,23 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Final_piece")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Strangerboy27_bot_strangerboy"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/+aBB53vou0Z5hZWI1"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Final_piece"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/Soi7off"),
         ],
     ]
 )
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
-    "https://i.ibb.co/0p3pmkwn/Angel.jpg",
-    "https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg",
-    "https://i.ibb.co/wryWJwn5/STRANGER-BOY.jpg",
-    "https://i.ibb.co/pCtQngf/STRANGER-BOY.jpg",
-    "https://i.ibb.co/gMJHZgz4/STRANGER-BOY.jpg",
-    "https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg",
+    "https://ibb.co/fdYV7SzZ",
+    "https://ibb.co/wNm9g37X",
+    "https://ibb.co/kgVCdh1G",
+    "https://ibb.co/1YyBYk3c",
+    "https://ibb.co/9HPmFsD3",
     # Add more image URLs as needed
 ]
 
@@ -336,7 +334,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"If you face any problem contact -  [STRANGER BOYS](https://t.me/Strangerboy27_bot_strangerboy)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [STRANGER BOYS](https://t.me/Final_piece)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
@@ -417,7 +415,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 🔶️🔹️💠[STRANGER BOTS](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠🔹️🔶️\n"
+        f" 🔶️🔹️💠[CHAMBAL BOTS](https://ibb.co/9HPmFsD3)💠🔹️🔶️\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
@@ -442,7 +440,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [STRANGER BOY](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [CHAMBAL BOY](https://ibb.co/9HPmFsD3) 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -658,12 +656,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°✅ STRANGER BOTS VIDEO ✅°•.═━┈-\n{b_name}\n```\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)```\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°✅ STRANGER BOTS PDF ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)```\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ STRANGER zip ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)```\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ STRANGER pic ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)```\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)```\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)```\n'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°✅ CHAMBAL BOTS VIDEO ✅°•.═━┈-\n{b_name}\n```\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://ibb.co/9HPmFsD3)```\n'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°✅ CHAMBAL BOTS PDF ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://ibb.co/9HPmFsD3)```\n'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ CHAMBAL zip ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://ibb.co/9HPmFsD3)```\n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ CHAMBAL pic ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://ibb.co/9HPmFsD3)```\n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ CHAMBAL mp3 ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://ibb.co/9HPmFsD3)```\n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ CHAMBAL HTML ✅°•.═━┈-\n{b_name}\n```\n\n```-┈━═.•°✅ EXTRACTOR BY ✅°•.═━┈-\n[{CR}](https://ibb.co/9HPmFsD3)```\n'
                   
                 if "drive" in url:
                     try:
@@ -797,7 +795,7 @@ async def txt_handler(bot: Client, m: Message):
                     time.sleep(1)
                 
             except Exception as e:
-                await bot.send_message(channel_id, f'⚠️**Downloading Failed**⚠️\n**Name** =>> `{str(count).zfill(3)} {name1}`\n**Url** =>> {link0}\n\n<pre><i><b>Failed Reason: {str(e)}</b></i></pre>', disable_web_page_preview=True)
+                await bot.send_message(channel_id, f'⚠️** chu*d gye guru **⚠️\n**Name** =>> `{str(count).zfill(3)} {name1}`\n**Url** =>> {link0}\n\n<pre><i><b>Failed Reason: {str(e)}</b></i></pre>', disable_web_page_preview=True)
                 count += 1
                 failed_count += 1
                 continue
@@ -808,9 +806,9 @@ async def txt_handler(bot: Client, m: Message):
 
     success_count = len(links) - failed_count
     if raw_text7 == "/d":
-        await bot.send_message(channel_id, f"**-┈━═.•°✅ Completed ✅°•.═━┈-**\n\n**🎯Batch Name : {b_name}**\n🔗 Total URLs: {len(links)} \n┃   ┠🔴 Total Failed URLs: {failed_count}\n┃   ┠🟢 Total Successful URLs: {success_count}\n┃   ┃   ┠🎥 Total Video URLs: {other_count}\n┃   ┃   ┠📄 Total PDF URLs: {pdf_count}\n┃   ┃   ┠📸 Total IMAGE URLs: {img_count}\n")
+        await bot.send_message(channel_id, f"**-┈━═.•°✅ MOUJ MARO AB ✅°•.═━┈-**\n\n**🎯Batch Name : {b_name}**\n🔗 Total URLs: {len(links)} \n┃   ┠🔴 Total Failed URLs: {failed_count}\n┃   ┠🟢 Total Successful URLs: {success_count}\n┃   ┃   ┠🎥 Total Video URLs: {other_count}\n┃   ┃   ┠📄 Total PDF URLs: {pdf_count}\n┃   ┃   ┠📸 Total IMAGE URLs: {img_count}\n")
     else:
-        await bot.send_message(channel_id, f"**-┈━═.•°✅ Completed ✅°•.═━┈-**\n\n**🎯Batch Name : {b_name}**\n<blockquote>🔗 Total URLs: {len(links)} \n┃   ┠🔴 Total Failed URLs: {failed_count}\n┃   ┠🟢 Total Successful URLs: {success_count}\n┃   ┃   ┠🎥 Total Video URLs: {other_count}\n┃   ┃   ┠📄 Total PDF URLs: {pdf_count}\n┃   ┃   ┠📸 Total IMAGE URLs: {img_count}</blockquote>\n")
+        await bot.send_message(channel_id, f"**-┈━═.•°✅ MOUJ MARO AB ✅°•.═━┈-**\n\n**🎯Batch Name : {b_name}**\n<blockquote>🔗 Total URLs: {len(links)} \n┃   ┠🔴 Total Failed URLs: {failed_count}\n┃   ┠🟢 Total Successful URLs: {success_count}\n┃   ┃   ┠🎥 Total Video URLs: {other_count}\n┃   ┃   ┠📄 Total PDF URLs: {pdf_count}\n┃   ┃   ┠📸 Total IMAGE URLs: {img_count}</blockquote>\n")
         await bot.send_message(m.chat.id, f"<blockquote><b>✅ Your Task is completed, please check your Set Channel📱</b></blockquote>")
 
 
